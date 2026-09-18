@@ -1,0 +1,12 @@
+{
+  // Đổi "name" thành đúng tên project Cloudflare của bạn (xem trong dashboard)
+  // nếu nó khác với tên repo.
+  "name": "dac-tuoi",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-09-18",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  }
+}
