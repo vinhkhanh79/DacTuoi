@@ -23,7 +23,7 @@ export function buildOrderMessage(order: OrderPayload): string {
   }).format(new Date());
 
   const lines = [
-    "🛒 <b>ĐƠN HÀNG MỚI</b>",
+    "<b>ĐƠN HÀNG MỚI</b>",
     "",
     `👤 Khách hàng: ${escapeHtml(order.name)}`,
     `📞 SĐT: ${escapeHtml(order.phone)}`,
